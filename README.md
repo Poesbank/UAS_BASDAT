@@ -20,7 +20,7 @@ Panduan menggunakan aplikasi:
 1.	Buat database dengan nama scema uas_basdat, tabel bernama data_logistik yang berisikan Logistic_id dengan tipe data INT dan sebagai Primary Key, Tanggal_Pengiriman dengan tipe data Date, Jenis_Pengiriman dengan tipe data varchar, Status dengan tipe data varchar, Jalur_Pengiriman dengan tipe data varchar, Jenis_Barang dengan tipe data varchar, Asal_Pengiriman dengan tipe data varchar, dan Tujuan_Pengiriman dengan tipe data varchar. Atau kalian juga bisa mendownload file yang telah disediakan yang bernama PastiSampai.sql .
 2.	download file PastiSampai.py, dan semua template yang ada lalu simpan di satu folder yang sama.
 3.	Buka file PastiSampai yang memiliki ekstensi .py di Visual Studio Code, Visual Studio dll.
-4.	Run Program menggunakan tombol Run ataupun melalui terminal dengan mengetikan python main.py
+4.	Run Program menggunakan tombol Run ataupun melalui terminal dengan mengetikan python PastiSampai.py
 5.	Klik Link yang ada di terminal pada umumnya https://127.0.0.1:5000
 6.	Pada halaman Login masukan Username: admin@gmail.com dan Password: pass
 
