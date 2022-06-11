@@ -8,7 +8,7 @@ Judul Project :
 PastiSampai Express
 
 Permasalahan :
-Penting untuk admin pergudangan menjaga perhitungan stok barang di gudang secara akurat dan berkelanjutan. Dengan kata lain, ini adalah salah satu masalah yang paling menantang dalam mengelola sistem pada gudang. Selain itu juga admin pergudangan dapat melakukan kesalahan pencatatan dalam mengelola gudang yang dapat berpengaruh pada manajemen sistem gudang.
+Penting untuk admin pergudangan untuk mengecek barang di gudang secara akurat dan berkelanjutan. Dengan kata lain, ini adalah salah satu masalah yang paling menantang dalam mengelola sistem pada gudang. Selain itu juga admin pergudangan dapat melakukan kesalahan pencatatan dalam mengelola gudang yang dapat berpengaruh pada manajemen sistem gudang.
 
 Solusi :
 Untuk menghindari kesalahan-kesalahan kecil yang akan membuahkan suatu permasalahan yang besar. Kami membuat aplikasi PastiSampai Express yang berfungsi untuk membantu admin pergudangan menginput data pengiriman barang. Admin juga dapat mencari status sebuah barang dengan menggunakan id pengiriman yang telah dibuat sehingga akan memudahkan admin dalam mengelola sistem pergudangan.
