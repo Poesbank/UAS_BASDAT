@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+  {% block sub_content %}
+  <div class="p-3 mb-2 bg-secondary text-white">
+   <center>
+     <font face="Montserrat"><br><br><br><br><br>
+     <h2> PASTI SAMPAI EXPRESS </h2>
+     <img src="https://logodix.com/logo/1707088.png" width="200" height="170">
+     <h3>Login Admin</h3>
+    </font>
+   <form method="POST">
+    <div class="row">
+    <div class="col-md-12">
+      <label for="exampleInputEmail1" class="form-label">Username
+      <input type="email" name="email" class="form-control-sm-8" id="exampleInputEmail1" aria-describedby="emailHelp"></label>
+    </div>
+    <div class="col-md-12">
+      <label for="exampleInputPassword1" class="form-label">Password
+      <input type="password" name="password" class="form-control-sm-8" id="exampleInputPassword1"></label>
+    
+  </div>
+  <button type="submit" class="btn btn-primary-sm-8">Submit</button>
+  </div>
+  </form>
+   </center>
+  </div>
+  {% endblock %}

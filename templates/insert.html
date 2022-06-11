@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+  {% block sub_content %}
+    <form method="post" action="#">
+      <h2 align ="center">Pasti Sampai Express</h2>
+      <legend> Masukan Data </legend>
+      <div class = "form-group">
+        <label for= "Logistic_id">ID Pengiriman</label>
+        <input type="text" name="Logistic_id" class = "form-control" placeholder="Enter"/>
+      
+      <div class = "form-group">
+        <label for= "Tanggal_Pengiriman">Tanggal Pengiriman</label>
+        <input type="date" name="Tanggal_Pengiriman" class = "form-control" placeholder="Enter"/>
+      
+      <div class = "form-group">
+        <label for= "Jenis_Pengiriman">Jenis Pengiriman</label>
+        <input type="text" name="Jenis_Pengiriman" class = "form-control" placeholder="Enter"/>
+      
+      <div class = "form-group">
+        <label for= "Status">Status</label>
+        <input type="text" name="Status" class = "form-control" placeholder="Enter"/>
+      
+      <div class = "form-group">
+        <label for= "Jalur_Pengiriman">Jalur Pengiriman</label>
+        <input type="text" name="Jalur_Pengiriman" class = "form-control" placeholder="Enter"/>
+
+      <div class = "form-group">
+        <label for= "Jenis_Barang">Jenis Barang</label>
+        <input type="text" name="Jenis_Barang" class = "form-control" placeholder="Enter"/>
+
+      <div class = "form-group">
+        <label for= "Asal_Pengiriman">Asal Pengiriman</label>
+        <input type="text" name="Asal_Pengiriman" class = "form-control" placeholder="Enter"/>
+
+      <div class = "form-group">
+        <label for= "Tujuan_Pengiriman">Tujuan Pengiriman</label>
+        <input type="text" name="Tujuan_Pengiriman" class = "form-control" placeholder="Enter"/>
+
+      </div>
+      <br />
+      <button type="Submit" class="btn btn-primary"></button>
+    </form>
+  {% endblock %}

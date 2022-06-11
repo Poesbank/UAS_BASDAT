@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+  {% block sub_content %}
+  <center>
+  <div class="input-group rounded">
+    <form method="POST"><br><br><br>
+    <img src="https://www.freepnglogos.com/uploads/search-png/search-icon-transparent-images-vector-15.png" height="180" width="160">
+    <font face="Source Sans Pro">
+    <h3>CEK STATUS PENGIRIMAN</h3>
+    </font>
+    <input type="text" id="form1" class="form-control" value="{{search}}" name="Logistic_id"/>  
+    <input type="submit" class="btn btn-primary" value="Search">
+    <span class="input-group-text border-0" id="search-addon">
+      <i class="fas fa-search"></i>
+    </span>
+    </form>
+  </div>
+  {% for data in result %}
+    <p>
+        <h5>Status Pengiriman :</h5>
+        <b>{{ data.Status }}</b>
+    </p>
+  </center> 
+  {% endfor %}
+  {% endblock %}

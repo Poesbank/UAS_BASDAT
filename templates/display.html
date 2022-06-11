@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block sub_content %}
+<table class="table">
+  <tr>
+    <th>Logistic_id</th>
+    <th>Tanggal_Pengiriman</th>
+    <th>Jenis_Pengiriman</th>
+    <th>Status</th>
+    <th>Jalur_Pengiriman</th>
+    <th>Jenis_Barang</th>
+    <th>Asal_Pengiriman</th>
+    <th>Tujuan_Pengiriman</th>
+    <th>Update</th>
+  </tr>
+  {% for insert in display %}
+  <tr>
+    <td>{{ insert.Logistic_id }}</td>
+    <td>{{ insert.Tanggal_Pengiriman }}</td>
+    <td>{{ insert.Jenis_Pengiriman }}</td>
+    <td>{{ insert.Status }}</td>
+    <td>{{ insert.Jalur_Pengiriman }}</td>
+    <td>{{ insert.Jenis_Barang }}</td>
+    <td>{{ insert.Asal_Pengiriman }}</td>
+    <td>{{ insert.Tujuan_Pengiriman }}</td>
+    <td>
+      <input type="submit" class="btn btn-primary btn-disabled" value="update" disabled>
+    </td>
+  </tr>
+  {% endfor %}
+</table>
+{% endblock %}
